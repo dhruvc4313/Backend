@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Syllabus-focused notes for Backend Web Development."
+    />
+    <meta name="theme-color" content="#0b1020" />
+    <title>Backend Web Development | Assignment Hub</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/content.js"></script>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/components.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="home-hero">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+        <div class="hero-content">
+          <span class="eyebrow"
+            ><span class="live-dot"></span> COURSE COMPANION / 2026</span
+          >
+          <h1>Backend Web<br /><span>Development.</span></h1>
+          <p class="hero-lede">
+            A structured, topic-by-topic learning space for web technologies,
+            PHP programming, forms and MySQL fundamentals.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#units"
+              >Explore the syllabus <span>↗</span></a
+            ><button class="secondary-button" type="button" data-scroll-search>
+              Find a topic <span>⌕</span>
+            </button>
+          </div>
+          <div class="hero-proof">
+            <span><i>✓</i> Unit-wise structure</span
+            ><span><i>✓</i> Examples & outputs</span
+            ><span><i>✓</i> Quick navigation</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="orbit-core">
+            <span class="core-bracket">&lt;/&gt;</span
+            ><span class="core-caption">LEARN BY BUILDING</span>
+          </div>
+          <div class="float-card float-card-top">
+            <span class="float-icon">{ }</span
+            ><span
+              ><b>Web fundamentals</b><small>Start with the basics</small></span
+            ><span class="float-check">✓</span>
+          </div>
+          <div class="float-card float-card-bottom">
+            <span class="float-icon purple">▤</span
+            ><span
+              ><b>Structured notes</b><small>Syllabus notes · 4 units</small></span
+            ><span class="float-check">↗</span>
+          </div>
+          <div class="hero-grid-lines"></div>
+        </div>
+        <div class="hero-bottom-line">
+          <span>01 — LEARN</span><span>02 — PRACTICE</span
+          ><span>03 — UNDERSTAND</span>
+        </div>
+      </section>
+      <section class="stats-strip">
+        <div class="stat-item">
+          <span class="stat-value" id="topic-total">30</span
+          ><span class="stat-label">TOPICS</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value">04</span
+          ><span class="stat-label">UNITS</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" id="section-total">—</span
+          ><span class="stat-label">CONTENT SECTIONS</span>
+        </div>
+        <div class="stat-message">
+          <span class="status-pulse"></span> Your syllabus, organized in one
+          place.
+        </div>
+      </section>
+      <section class="content-wrap" id="units">
+        <div class="section-heading">
+          <div class="eyebrow">THE LEARNING PATH</div>
+          <h2>Four units. One clear direction.</h2>
+          <p>
+            Follow the course in order, or jump straight to the topic you need.
+          </p>
+        </div>
+        <div class="unit-grid" id="unit-grid"></div>
+      </section>
+      <section class="search-section" id="search-area">
+        <div class="search-panel">
+          <div class="search-copy">
+            <span class="eyebrow">QUICK FIND</span>
+            <h2>What are you<br />looking for?</h2>
+            <p>
+              Search topic titles and the available notes to get to the right
+              section faster.
+            </p>
+            <div class="search-hint">
+              <span>↳</span> Try “HTTP”, “variables”, “GET” or “database”
+            </div>
+          </div>
+          <div class="search-control">
+            <label for="topic-search">SEARCH THE COURSE</label>
+            <div class="search-input-wrap">
+              <span class="search-icon">⌕</span
+              ><input
+                id="topic-search"
+                type="search"
+                placeholder="Search topics or keywords…"
+                autocomplete="off"
+              /><kbd>LIVE</kbd>
+            </div>
+            <div
+              id="search-results"
+              class="search-results"
+              aria-live="polite"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section class="content-wrap featured-section">
+        <div class="section-heading heading-inline">
+          <div>
+            <div class="eyebrow">START EXPLORING</div>
+            <h2>Popular starting points</h2>
+            <p>Open a topic to access its complete notes and examples.</p>
+          </div>
+          <a class="text-link" href="#topic-search" data-scroll-search
+            >Search all topics ↗</a
+          >
+        </div>
+        <div class="all-topics" id="all-topics"></div>
+      </section>
+      <section class="closing-banner">
+        <div>
+          <span class="eyebrow">READY WHEN YOU ARE</span>
+          <h2>Make the concepts<br /><span>click into place.</span></h2>
+        </div>
+        <a class="primary-button" href="unit.html?unit=01"
+          >Start with Unit 01 <span>↗</span></a
+        >
+      </section>
+    </main>
+  </body>
+</html>
